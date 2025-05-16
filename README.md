@@ -5,43 +5,6 @@ This repository provides a pipeline for glacial lake segmentation using multi-ba
 
 ---
 
-## 📁 Project Structure
-
-```
-
-glacier-lake-segmentation/
-│
-├── data/                    # Dataset setup and preprocessing instructions
-│   └── README.md
-│
-├── models/                  # Model definitions
-│   ├── nau\_net.py
-│   ├── sam\_model.py
-│
-├── training/                # Training scripts
-│   ├── train\_nau\_net.py
-│   ├── train\_sam.py
-│
-├── inference/              # Inference scripts
-│   ├── infer\_nau\_net.py
-│   ├── infer\_sam.py
-│
-├── utils/                  # Helper functions
-│   ├── metrics.py
-│   ├── data\_loader.py
-│   ├── visualization.py
-│
-├── notebooks/              # Jupyter notebooks (EDA, comparison, visualization)
-│   └── results\_comparison.ipynb
-│
-├── results/                # Outputs or checkpoints (optional)
-│
-├── requirements.txt        # Required Python packages
-├── README.md               # Project overview and usage
-├── .gitignore              # Ignore patterns
-├── LICENSE                 # License file (e.g., MIT)
-
-````
 
 ---
 
@@ -57,8 +20,9 @@ cd glacier-lake-segmentation
 ### 2. Create and activate a virtual environment (recommended)
 
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+conda create -n glacier-segmentation python=3.9 -y
+conda activate glacier-segmentation
+
 ```
 
 ### 3. Install dependencies
