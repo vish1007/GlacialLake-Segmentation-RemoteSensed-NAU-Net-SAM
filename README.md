@@ -1,4 +1,4 @@
-# Glacier Lake Segmentation from Remote Sensing Data using UNet and SAM
+# Glacier Lake Segmentation from Remote Sensing Data using NAU-Net and SAM
 
 This repository presents a complete pipeline for glacial lake segmentation leveraging multi-band remote sensing data and deep learning models, including NAU-Net and the Segment Anything Model (SAM). The input data is derived from Landsat imagery and Digital Elevation Models (DEMs), enhanced with additional indices such as NDWI (Normalized Difference Water Index), NDSI (Normalized Difference Snow Index), and slope information.
 
