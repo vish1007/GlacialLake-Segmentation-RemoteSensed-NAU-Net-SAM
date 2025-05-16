@@ -67,8 +67,7 @@ python training/train_sam.py
 ### 3. Inference using trained models
 
 ```bash
-python inference/infer_nau_net.py
-python inference/infer_sam.py
+python inference_testing/NAU-SAM_test.py
 ```
 
 ---
