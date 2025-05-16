@@ -9,7 +9,7 @@ This repository presents a complete pipeline for glacial lake segmentation lever
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/glacier-lake-segmentation.git
+git clone https://github.com/vish1007/GlacialLake-Segmentation-RemoteSensed-NAU-Net-SAM.git
 cd glacier-lake-segmentation
 ````
 
