@@ -102,12 +102,3 @@ If you use this code or dataset in your research, please cite:
 > Chen, F., et al. “Annual 30 m dataset for glacial lakes in high mountain Asia from 2008 to 2017.” Earth System Science Data (2021).
 
 ---
-
-## 🤝 Contributions
-
-Pull requests and suggestions are welcome. Please open an issue for major changes.
-
-```
-
-Let me know if you'd like to include example model outputs, Hugging Face deployment steps, or visualizations!
-```
